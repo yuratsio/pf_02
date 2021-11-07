@@ -285,7 +285,6 @@ a {
   }
   &__mainvisual {
     @include mq(md) {
-      align-self: auto;
       max-width: 350px;
     }
 
@@ -293,7 +292,7 @@ a {
       transform: translateY(-30px);
       max-width: 520px;
     }
-    align-self: end;
+    transform: translateX(10%);
     max-width: 300px;
   }
   &__bg-circle {
