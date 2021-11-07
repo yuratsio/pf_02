@@ -164,13 +164,13 @@ a {
     &--open {
       & > span {
         &:first-of-type {
-          transform: translateY(9px) rotate(35deg);
+          transform: translateY(9.5px) rotate(35deg);
         }
         &:nth-of-type(2) {
           opacity: 0;
         }
         &:last-of-type {
-          transform: translateY(-9px) rotate(-35deg);
+          transform: translateY(-9.5px) rotate(-35deg);
         }
       }
     }
