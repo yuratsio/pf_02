@@ -421,17 +421,13 @@ a {
 }
 
 .hero__mainvisual {
-  -ms-flex-item-align: end;
-      -ms-grid-row-align: end;
-      align-self: end;
+  -webkit-transform: translateX(10%);
+          transform: translateX(10%);
   max-width: 300px;
 }
 
 @media (min-width: 768px) {
   .hero__mainvisual {
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
     max-width: 350px;
   }
 }
