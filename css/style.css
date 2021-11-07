@@ -96,10 +96,10 @@ a {
   opacity: 0;
   -webkit-transform: translateY(50px);
           transform: translateY(50px);
-  -webkit-transition: opacity 1s ease, -webkit-transform 1s ease 0s;
-  transition: opacity 1s ease, -webkit-transform 1s ease 0s;
-  transition: transform 1s ease, opacity 1s ease 0s;
-  transition: transform 1s ease, opacity 1s ease, -webkit-transform 1s ease 0s;
+  -webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
+  transition: opacity 1s ease, -webkit-transform 1s ease;
+  transition: transform 1s ease, opacity 1s ease;
+  transition: transform 1s ease, opacity 1s ease, -webkit-transform 1s ease;
 }
 
 .js-fadein--active {
