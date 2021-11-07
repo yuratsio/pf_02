@@ -231,8 +231,8 @@ a {
 }
 
 .header__hamburger-menu--open > span:first-of-type {
-  -webkit-transform: translateY(9px) rotate(35deg);
-          transform: translateY(9px) rotate(35deg);
+  -webkit-transform: translateY(9.5px) rotate(35deg);
+          transform: translateY(9.5px) rotate(35deg);
 }
 
 .header__hamburger-menu--open > span:nth-of-type(2) {
@@ -240,8 +240,8 @@ a {
 }
 
 .header__hamburger-menu--open > span:last-of-type {
-  -webkit-transform: translateY(-9px) rotate(-35deg);
-          transform: translateY(-9px) rotate(-35deg);
+  -webkit-transform: translateY(-9.5px) rotate(-35deg);
+          transform: translateY(-9.5px) rotate(-35deg);
 }
 
 .header__sm-nav {
