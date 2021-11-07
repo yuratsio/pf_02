@@ -1,0 +1,5 @@
+$breakpoints: (
+  "xs": "not all and(min-width: 375px)",
+  "md": "(min-width: 768px)",
+  "lg": "(min-width: 1024px)",
+) !default;
