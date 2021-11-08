@@ -343,6 +343,12 @@ a {
   overflow: hidden;
 }
 
+@media (min-width: 768px) {
+  .hero {
+    padding-bottom: 140px;
+  }
+}
+
 .hero__inner {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -358,7 +364,6 @@ a {
       -ms-flex-align: center;
           align-items: center;
   max-width: 500px;
-  min-height: calc(100vh - 80px);
   margin: 0 auto;
   padding-top: 50px;
 }
@@ -375,7 +380,6 @@ a {
         -ms-flex-align: start;
             align-items: flex-start;
     max-width: none;
-    min-height: calc(80vh - 95px);
     padding-top: 160px;
   }
 }
@@ -385,7 +389,6 @@ a {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    min-height: calc(100vh - 95px);
   }
 }
 
